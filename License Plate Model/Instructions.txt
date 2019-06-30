@@ -1,0 +1,10 @@
+Hello!!
+
+1. I've added the "inference_grapgh" and the "model.ckpt-10448" folders with this zip file.
+2. I've trained the "ssd_mobilenet_v2_coco_2018_03_29" (Downloaded from the tensorflow model zoo)
+3. Extract the content of the "model.ckpt-10448" folder into the "C:\tensorflow1\models\research\object_detection\training" or where the tensorflow models are extracted on your system.
+4. Extract the content of the "inference_grapgh" folder into the "C:\tensorflow1\models\research\object_detection\inference_grapgh" and replace the existing files if needed.
+5. Put "Object_detection_video.py" into the "C:\tensorflow1\models\research\object_detection".
+6. Put the source video file into the "C:\tensorflow1\models\research\object_detection".
+7. Rename the source video file as "testVid.mov" and run it. (or edit the 35th line of Object_detection_video.py)
+8. Press "q" to quit the preview window any time and terminate the program.
